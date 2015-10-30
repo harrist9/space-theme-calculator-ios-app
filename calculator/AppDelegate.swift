@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  calculator
 //
-//  Created by Thomas on 10/29/15.
+//  Created by Thomas Harris on 10/29/15.
 //  Copyright © 2015 Thomas Harris. All rights reserved.
 //
 
