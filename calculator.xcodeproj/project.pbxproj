@@ -14,6 +14,8 @@
 		E915D59D1BE2F4A200AFC1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E915D59B1BE2F4A200AFC1D2 /* LaunchScreen.storyboard */; };
 		E915D5A81BE2F4A200AFC1D2 /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915D5A71BE2F4A200AFC1D2 /* calculatorTests.swift */; };
 		E915D5B31BE2F4A200AFC1D2 /* calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915D5B21BE2F4A200AFC1D2 /* calculatorUITests.swift */; };
+		E91E940A1BE3D9E70038D72E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91E94081BE3D9E70038D72E /* AdSupport.framework */; };
+		E91E940B1BE3D9E70038D72E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91E94091BE3D9E70038D72E /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E915D5AE1BE2F4A200AFC1D2 /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E915D5B21BE2F4A200AFC1D2 /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
 		E915D5B41BE2F4A200AFC1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91E94081BE3D9E70038D72E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E91E94091BE3D9E70038D72E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91E940A1BE3D9E70038D72E /* AdSupport.framework in Frameworks */,
+				E91E940B1BE3D9E70038D72E /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,8 @@
 		E915D5861BE2F4A200AFC1D2 = {
 			isa = PBXGroup;
 			children = (
+				E91E94081BE3D9E70038D72E /* AdSupport.framework */,
+				E91E94091BE3D9E70038D72E /* iAd.framework */,
 				E915D5911BE2F4A200AFC1D2 /* calculator */,
 				E915D5A61BE2F4A200AFC1D2 /* calculatorTests */,
 				E915D5B11BE2F4A200AFC1D2 /* calculatorUITests */,
@@ -482,6 +490,7 @@
 				E915D5B91BE2F4A200AFC1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E915D5BA1BE2F4A200AFC1D2 /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				E915D5BC1BE2F4A200AFC1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E915D5BD1BE2F4A200AFC1D2 /* Build configuration list for PBXNativeTarget "calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				E915D5BF1BE2F4A200AFC1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

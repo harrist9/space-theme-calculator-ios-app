@@ -68,10 +68,10 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="CnW-0k-c7E">
-                                        <rect key="frame" x="0.0" y="190" width="600" height="81"/>
+                                        <rect key="frame" x="0.0" y="190" width="600" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsi-qz-KWG">
-                                                <rect key="frame" x="0.0" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -83,11 +83,11 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNB-KN-L69">
-                                                <rect key="frame" x="150" y="0.0" width="150" height="81"/>
+                                                <rect key="frame" x="150" y="0.0" width="150" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                                                <state key="normal" title="+\-">
+                                                <state key="normal" title="+/-">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
@@ -95,7 +95,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuu-E9-5po">
-                                                <rect key="frame" x="301" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="301" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -107,7 +107,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHH-Xa-Tc1">
-                                                <rect key="frame" x="451" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="451" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -122,10 +122,10 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="P9e-0D-Fou">
-                                        <rect key="frame" x="0.0" y="272" width="600" height="81"/>
+                                        <rect key="frame" x="0.0" y="262" width="600" height="71"/>
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ur-Mc-1Ls">
-                                                <rect key="frame" x="0.0" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -134,11 +134,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="50Q-nP-32g"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I3N-PN-TH7"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNd-c1-fIV">
-                                                <rect key="frame" x="150" y="0.0" width="150" height="81"/>
+                                                <rect key="frame" x="150" y="0.0" width="150" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -147,11 +146,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="exT-Al-1vo"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T8L-dG-nDH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYx-p1-WG6">
-                                                <rect key="frame" x="301" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="301" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -160,11 +158,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="daj-Tg-kzK"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gIh-Y2-g4p"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mm0-f0-jFp">
-                                                <rect key="frame" x="451" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="451" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -179,10 +176,10 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="H81-sZ-DN9">
-                                        <rect key="frame" x="0.0" y="354" width="600" height="82"/>
+                                        <rect key="frame" x="0.0" y="334" width="600" height="71"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDT-RG-gBd">
-                                                <rect key="frame" x="0.0" y="0.0" width="149" height="82"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -191,11 +188,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cnh-cV-73T"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IP7-to-LVr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCD-co-fuu">
-                                                <rect key="frame" x="150" y="0.0" width="150" height="82"/>
+                                                <rect key="frame" x="150" y="0.0" width="150" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -204,11 +200,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KIB-AM-Uzu"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xio-3T-oCL"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w00-eP-Ygi">
-                                                <rect key="frame" x="301" y="0.0" width="149" height="82"/>
+                                                <rect key="frame" x="301" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -217,11 +212,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jfU-MI-4gu"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6qL-yD-xoi"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pda-5O-1Qj">
-                                                <rect key="frame" x="451" y="0.0" width="149" height="82"/>
+                                                <rect key="frame" x="451" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -236,10 +230,10 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="5nW-C9-sS1">
-                                        <rect key="frame" x="0.0" y="437" width="600" height="81"/>
+                                        <rect key="frame" x="0.0" y="406" width="600" height="71"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXf-BF-3XZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -248,11 +242,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E43-DJ-Owx"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HcI-JN-4XK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huR-Wg-SGR">
-                                                <rect key="frame" x="150" y="0.0" width="150" height="81"/>
+                                                <rect key="frame" x="150" y="0.0" width="150" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -261,11 +254,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t1K-vr-f2Z"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jLf-pe-pmB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sr-4L-55o">
-                                                <rect key="frame" x="301" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="301" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -274,11 +266,10 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FUr-AY-KYc"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0iU-Nr-q06"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSb-0V-4gv">
-                                                <rect key="frame" x="451" y="0.0" width="149" height="81"/>
+                                                <rect key="frame" x="451" y="0.0" width="149" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -293,10 +284,10 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="NHo-kK-MHe">
-                                        <rect key="frame" x="0.0" y="519" width="600" height="81"/>
+                                        <rect key="frame" x="0.0" y="478" width="600" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gD9-1z-Ple">
-                                                <rect key="frame" x="0.0" y="0.0" width="199" height="81"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="199" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -305,23 +296,19 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4H-SO-VMI"/>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M0x-VC-oGP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQd-sX-Y8j">
-                                                <rect key="frame" x="200" y="0.0" width="200" height="81"/>
+                                                <rect key="frame" x="200" y="0.0" width="200" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ta-XW-sRZ"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffJ-Qu-bWf">
-                                                <rect key="frame" x="401" y="0.0" width="199" height="81"/>
+                                                <rect key="frame" x="401" y="0.0" width="199" height="71"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
@@ -335,12 +322,25 @@
                                         </subviews>
                                         <animations/>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Ap1-CZ-Hhe">
+                                        <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                                        <subviews>
+                                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Fs-RA-F5e">
+                                                <rect key="frame" x="0.0" y="50" width="600" height="0.0"/>
+                                                <animations/>
+                                            </adBannerView>
+                                        </subviews>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="IHk-Of-nrW"/>
+                                        </constraints>
+                                    </stackView>
                                 </subviews>
                                 <animations/>
                                 <constraints>
                                     <constraint firstItem="CnW-0k-c7E" firstAttribute="top" secondItem="Z8a-sW-3we" secondAttribute="top" constant="190" id="J0X-hn-4vH"/>
                                     <constraint firstAttribute="trailing" secondItem="STc-3S-nNs" secondAttribute="trailing" id="Lnn-Tx-kqh"/>
-                                    <constraint firstItem="H81-sZ-DN9" firstAttribute="height" secondItem="CnW-0k-c7E" secondAttribute="height" constant="1" id="Lv7-2J-YrP"/>
+                                    <constraint firstItem="H81-sZ-DN9" firstAttribute="height" secondItem="CnW-0k-c7E" secondAttribute="height" id="Lv7-2J-YrP"/>
                                     <constraint firstItem="STc-3S-nNs" firstAttribute="trailing" secondItem="vO2-Vq-VaC" secondAttribute="trailing" id="g8d-M3-1XC"/>
                                     <constraint firstItem="P9e-0D-Fou" firstAttribute="height" secondItem="CnW-0k-c7E" secondAttribute="height" id="gY5-g5-PVZ"/>
                                     <constraint firstItem="NHo-kK-MHe" firstAttribute="height" secondItem="CnW-0k-c7E" secondAttribute="height" id="vwv-ef-3mS"/>

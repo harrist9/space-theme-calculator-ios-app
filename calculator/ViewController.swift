@@ -7,10 +7,17 @@
 //
 
 import UIKit
+import iAd
+import AdSupport
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    //Outlet
+    
     @IBOutlet weak var calcDisplay: UILabel!
+    
+    //Operations
     
     enum Operation: String {
         
@@ -24,7 +31,9 @@ class ViewController: UIViewController {
         
     }
     
-    var runningNumber = ""
+    //Properties and Variables Defined
+    
+    var displayedNumber = ""
     var leftValStr = ""
     var rightValStr = ""
     var currentOperation: Operation = Operation.Empty
@@ -38,8 +47,8 @@ class ViewController: UIViewController {
 
     @IBAction func digitPressed(button: UIButton!){
         
-        runningNumber += "\(button.tag)"
-        calcDisplay.text = runningNumber
+        displayedNumber += "\(button.tag)"
+        calcDisplay.text = displayedNumber
         
     }
     
@@ -79,7 +88,7 @@ class ViewController: UIViewController {
     
     func allClear(){
         
-        runningNumber = ""
+        displayedNumber = ""
         leftValStr = ""
         rightValStr = ""
         currentOperation = Operation.Empty
@@ -94,11 +103,12 @@ class ViewController: UIViewController {
             //Run some math
             //A user seleted an operator, but then selected another operator without first entering a number
             
-            if runningNumber != "" {
-                rightValStr = runningNumber
-                runningNumber = ""
-                
-                if currentOperation == Operation.Multiply {
+            if displayedNumber != "" {
+                rightValStr = displayedNumber
+                displayedNumber = ""
+            
+        
+            if currentOperation == Operation.Multiply {
                     result = "\(Double(leftValStr)! * Double(rightValStr)!)"
                 }else if currentOperation == Operation.Divde {
                     result = "\(Double(leftValStr)! / Double(rightValStr)!)"
@@ -110,22 +120,20 @@ class ViewController: UIViewController {
                     result = "\(Double(leftValStr)! / 100)"
                 }else if currentOperation == Operation.Invert {
                     result = "-\(Double(leftValStr)!)"
-                }
-               
+            }
+    
                 leftValStr = result
                 calcDisplay.text = result
-                
             }
-            
-            currentOperation = op
+                currentOperation = op
             
         }else {
             //This is the first time an operator has been pressed
-            leftValStr = runningNumber
-            runningNumber = ""
+            leftValStr = displayedNumber
+            displayedNumber = ""
             currentOperation = op
         }
-        
+    
     }
     
 }
