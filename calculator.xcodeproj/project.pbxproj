@@ -36,17 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E915D58F1BE2F4A200AFC1D2 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E915D58F1BE2F4A200AFC1D2 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E915D5921BE2F4A200AFC1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E915D5941BE2F4A200AFC1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E915D5971BE2F4A200AFC1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E915D5991BE2F4A200AFC1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E915D59C1BE2F4A200AFC1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E915D59E1BE2F4A200AFC1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E915D5A31BE2F4A200AFC1D2 /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E915D5A31BE2F4A200AFC1D2 /* Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E915D5A71BE2F4A200AFC1D2 /* calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorTests.swift; sourceTree = "<group>"; };
 		E915D5A91BE2F4A200AFC1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E915D5AE1BE2F4A200AFC1D2 /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E915D5AE1BE2F4A200AFC1D2 /* Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E915D5B21BE2F4A200AFC1D2 /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
 		E915D5B41BE2F4A200AFC1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91E94081BE3D9E70038D72E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -95,9 +95,9 @@
 		E915D5901BE2F4A200AFC1D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E915D58F1BE2F4A200AFC1D2 /* calculator.app */,
-				E915D5A31BE2F4A200AFC1D2 /* calculatorTests.xctest */,
-				E915D5AE1BE2F4A200AFC1D2 /* calculatorUITests.xctest */,
+				E915D58F1BE2F4A200AFC1D2 /* Calculator.app */,
+				E915D5A31BE2F4A200AFC1D2 /* Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */,
+				E915D5AE1BE2F4A200AFC1D2 /* Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			);
 			name = calculator;
 			productName = calculator;
-			productReference = E915D58F1BE2F4A200AFC1D2 /* calculator.app */;
+			productReference = E915D58F1BE2F4A200AFC1D2 /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E915D5A21BE2F4A200AFC1D2 /* calculatorTests */ = {
@@ -168,7 +168,7 @@
 			);
 			name = calculatorTests;
 			productName = calculatorTests;
-			productReference = E915D5A31BE2F4A200AFC1D2 /* calculatorTests.xctest */;
+			productReference = E915D5A31BE2F4A200AFC1D2 /* Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E915D5AD1BE2F4A200AFC1D2 /* calculatorUITests */ = {
@@ -186,7 +186,7 @@
 			);
 			name = calculatorUITests;
 			productName = calculatorUITests;
-			productReference = E915D5AE1BE2F4A200AFC1D2 /* calculatorUITests.xctest */;
+			productReference = E915D5AE1BE2F4A200AFC1D2 /* Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -201,6 +201,7 @@
 				TargetAttributes = {
 					E915D58E1BE2F4A200AFC1D2 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 56P3PHE54L;
 					};
 					E915D5A21BE2F4A200AFC1D2 = {
 						CreatedOnToolsVersion = 7.1;
@@ -212,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E915D58A1BE2F4A200AFC1D2 /* Build configuration list for PBXProject "calculator" */;
+			buildConfigurationList = E915D58A1BE2F4A200AFC1D2 /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -405,10 +406,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasharris.calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculator;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,10 +421,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasharris.calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculator;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -430,8 +439,8 @@
 				INFOPLIST_FILE = calculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasharris.calculatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculator.app/calculator";
+				PRODUCT_NAME = Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app/Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -442,8 +451,8 @@
 				INFOPLIST_FILE = calculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasharris.calculatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculator.app/calculator";
+				PRODUCT_NAME = Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app/Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -453,7 +462,7 @@
 				INFOPLIST_FILE = calculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasharris.calculatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 				TEST_TARGET_NAME = calculator;
 				USES_XCTRUNNER = YES;
 			};
@@ -465,7 +474,7 @@
 				INFOPLIST_FILE = calculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasharris.calculatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculator.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 				TEST_TARGET_NAME = calculator;
 				USES_XCTRUNNER = YES;
 			};
@@ -474,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E915D58A1BE2F4A200AFC1D2 /* Build configuration list for PBXProject "calculator" */ = {
+		E915D58A1BE2F4A200AFC1D2 /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E915D5B51BE2F4A200AFC1D2 /* Debug */,

@@ -9,132 +9,70 @@
 import UIKit
 import iAd
 import AdSupport
-import AVFoundation
 
 class ViewController: UIViewController {
 
-    //Outlet
     
-    @IBOutlet weak var calcDisplay: UILabel!
+@IBAction func infoPressed(sender: AnyObject) {
+    let alertController = UIAlertController(title: "Info", message:
+        "The Space Theme Background and app images were designed by FreePik", preferredStyle: UIAlertControllerStyle.Alert)
+    alertController.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default,handler: nil))
     
-    //Operations
+    self.presentViewController(alertController, animated: true, completion: nil)
     
-    enum Operation: String {
-        
-        case Divde = "/"
-        case Multiply = "*"
-        case Subtract = "-"
-        case Add = "+"
-        case Empty = "Empty"
-        case Precent = "%"
-        case Invert = "+/-"
-        
     }
     
-    //Properties and Variables Defined
-    
-    var displayedNumber = ""
-    var leftValStr = ""
-    var rightValStr = ""
-    var currentOperation: Operation = Operation.Empty
-    var result = ""
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-
-    @IBAction func digitPressed(button: UIButton!){
-        
-        displayedNumber += "\(button.tag)"
-        calcDisplay.text = displayedNumber
-        
-    }
+@IBOutlet weak var displayLabel: UILabel!
     
+    var isFirstDigit = true
+    var operand1: Double = 0
+    var operation = "="
     
-    @IBAction func dividePressed(sender: AnyObject) {
-        conductOperation(Operation.Divde)
-    }
-    
-    @IBAction func multiplyPressed(sender: AnyObject) {
-        conductOperation(Operation.Multiply)
-    }
-    
-    @IBAction func subtractPressed(sender: AnyObject) {
-        conductOperation(Operation.Subtract)
-    }
-    
-    @IBAction func addPressed(sender: AnyObject) {
-        conductOperation(Operation.Add)
-        
-    }
-
-    @IBAction func precentPressed(sender: AnyObject) {
-        conductOperation(Operation.Precent)
-    }
-    
-    @IBAction func invertSignPressed(sender: AnyObject) {
-        conductOperation(Operation.Invert)
-    }
-    
-    @IBAction func allClearPressed(sender: AnyObject) {
-        allClear()
-    }
-    
-    @IBAction func equalPressed(sender: AnyObject) {
-        conductOperation(currentOperation)
-    }
-    
-    func allClear(){
-        
-        displayedNumber = ""
-        leftValStr = ""
-        rightValStr = ""
-        currentOperation = Operation.Empty
-        result = ""
-        calcDisplay.text = "0"
-    }
-    
-    
-    func conductOperation(op: Operation) {
-        
-        if currentOperation != Operation.Empty {
-            //Run some math
-            //A user seleted an operator, but then selected another operator without first entering a number
-            
-            if displayedNumber != "" {
-                rightValStr = displayedNumber
-                displayedNumber = ""
-            
-        
-            if currentOperation == Operation.Multiply {
-                    result = "\(Double(leftValStr)! * Double(rightValStr)!)"
-                }else if currentOperation == Operation.Divde {
-                    result = "\(Double(leftValStr)! / Double(rightValStr)!)"
-                }else if currentOperation == Operation.Subtract {
-                    result = "\(Double(leftValStr)! - Double(rightValStr)!)"
-                }else if currentOperation == Operation.Add {
-                    result = "\(Double(leftValStr)! + Double(rightValStr)!)"
-                }else if currentOperation == Operation.Precent {
-                    result = "\(Double(leftValStr)! / 100)"
-                }else if currentOperation == Operation.Invert {
-                    result = "-\(Double(leftValStr)!)"
-            }
-    
-                leftValStr = result
-                calcDisplay.text = result
-            }
-                currentOperation = op
-            
-        }else {
-            //This is the first time an operator has been pressed
-            leftValStr = displayedNumber
-            displayedNumber = ""
-            currentOperation = op
+    var displayValue: Double {
+        get {
+            return NSNumberFormatter().numberFromString(displayLabel.text!)!.doubleValue
         }
-    
+        set {
+            displayLabel.text  = "\(newValue)"
+            isFirstDigit = true
+            operation = "="
+        }
     }
     
-}
 
+@IBAction func appendDigit(sender: UIButton) {
+        
+        let digit = sender.currentTitle!
+        displayLabel.text = isFirstDigit ? digit : displayLabel.text! + digit
+        isFirstDigit = false
+    }
+    
+@IBAction func clearDisplay(sender: AnyObject) {
+        displayValue = 0
+    }
+    
+@IBAction func changeSign(sender: AnyObject) {
+        displayValue = displayValue * -1
+    }
+    
+@IBAction func precentCalc(sender: AnyObject) {
+        displayValue = displayValue / 100
+    }
+
+@IBAction func saveOperand(sender: UIButton) {
+        operation = sender.currentTitle!
+        operand1 = displayValue
+        isFirstDigit = true
+       }
+    
+@IBAction func calculate(sender: AnyObject) {
+        switch operation {
+        case "÷":displayValue = operand1 / displayValue
+        case "x":displayValue *= operand1 
+        case "+":displayValue += operand1
+        case "-":displayValue = operand1 - displayValue
+        default:break
+        }
+    }
+}
